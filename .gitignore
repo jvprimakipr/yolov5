@@ -12,7 +12,6 @@
 *.MOV
 *.avi
 *.data
-*.json
 *.cfg
 !setup.cfg
 !cfg/yolov3*.cfg
@@ -28,8 +27,6 @@ data/images/*
 !data/images/bus.jpg
 !data/*.sh
 
-results*.csv
-
 # Datasets -------------------------------------------------------------------------------------------------------------
 coco/
 coco128/
@@ -41,8 +38,6 @@ VOC/
 !targets*.mat
 
 # Neural Network weights -----------------------------------------------------------------------------------------------
-*.weights
-*.pt
 *.pb
 *.onnx
 *.engine
