@@ -123,6 +123,6 @@ roboflow:
   url: https://universe.roboflow.com/tcc-eknhs/tdm/dataset/27
   version: 27
   workspace: tcc-eknhs
-test: ../test/images
+test: TDM-27/test/images
 train: TDM-27/train/images
 val: TDM-27/valid/images
